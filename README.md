@@ -10,7 +10,7 @@ Simple and tiny Minecraft Fabric mod that changes the color of the particles fro
 
 ## Installation
 First, install the Fabric Loader from [fabricmc.net](https://fabricmc.net/).
-Then head over to the [Sakura Blossoms Modrinth page](https://modrinth.com/mod/sakura-blossoms) and download the JAR file and copy it to your "mods" folder.
+Then head over to the [Modrinth page](https://modrinth.com/mod/sakura-blossoms) or the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sakura-blossoms) and download the JAR file and copy it to your "mods" folder.
 
 ## Authors
 Made with ❤ by Lua MacDougall ([foxgirl.dev](https://foxgirl.dev/))
