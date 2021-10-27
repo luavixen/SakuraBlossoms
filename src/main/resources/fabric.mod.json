@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+
+  "id": "sakurablossoms",
+  "version": "${version}",
+
+  "depends": {
+    "java": ">=16",
+    "minecraft": "1.17.x",
+    "fabricloader": "^0.11.0"
+  },
+
+  "name": "Sakura Blossoms",
+  "description": "Changes the color of the particles from the Spore Blossom to be pink. Finally.",
+  "icon": "assets/sakurablossoms/icon.png",
+
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lua MacDougall",
+      "contact": {
+        "email": "lua@foxgirl.dev",
+        "website": "https://foxgirl.dev/"
+      }
+    }
+  ],
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.foxgirl.sakurablossoms.Sakura::init"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "fabric.mixins.json",
+      "environment": "client"
+    }
+  ]
+}

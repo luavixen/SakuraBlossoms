@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_16",
+  "package": "dev.foxgirl.sakurablossoms.mixins",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "FallingSporeBlossomFactoryMixin",
+    "SporeBlossomAirFactoryMixin"
+  ]
+}

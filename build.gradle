@@ -1,0 +1,36 @@
+plugins {
+  id 'fabric-loom' version '0.9-SNAPSHOT'
+}
+
+group = project.mod_group
+archivesBaseName = project.mod_name
+
+version = project.mod_version
+
+sourceCompatibility = '16'
+targetCompatibility = '16'
+
+dependencies {
+  minecraft "com.mojang:minecraft:${project.minecraft_version}"
+  mappings "net.fabricmc:yarn:${project.yarn_version}:v2"
+  modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+}
+
+tasks.withType(JavaCompile) {
+  options.release = 16
+  options.encoding = 'UTF-8'
+}
+
+java {
+  withSourcesJar()
+}
+
+jar {
+  from 'LICENSE'
+}
+
+processResources {
+  from('src/resources/fabric.mod.json') {
+    expand 'version': project.mod_version
+  }
+}
