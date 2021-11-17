@@ -6,8 +6,8 @@
 
   "depends": {
     "java": ">=16",
-    "minecraft": "1.17.x",
-    "fabricloader": "^0.11.0"
+    "minecraft": ">=1.17.0",
+    "fabricloader": ">=0.11.0"
   },
 
   "name": "Sakura Blossoms",
