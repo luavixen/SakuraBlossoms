@@ -33,7 +33,7 @@
   },
   "mixins": [
     {
-      "config": "fabric.mixins.json",
+      "config": "sakurablossoms.mixins.json",
       "environment": "client"
     }
   ]
