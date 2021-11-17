@@ -1,7 +1,6 @@
 package dev.foxgirl.sakurablossoms.mixins;
 
 import dev.foxgirl.sakurablossoms.Sakura;
-import net.minecraft.client.particle.BlockLeakParticle;
 import net.minecraft.client.particle.Particle;
 import net.minecraft.client.particle.WaterSuspendParticle;
 import org.spongepowered.asm.mixin.Mixin;
