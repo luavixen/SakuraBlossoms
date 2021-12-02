@@ -30,7 +30,7 @@ jar {
 }
 
 processResources {
-  from('src/resources/fabric.mod.json') {
+  filesMatching("fabric.mod.json") {
     expand 'version': project.mod_version
   }
 }
