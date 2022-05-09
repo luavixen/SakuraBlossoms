@@ -13,7 +13,7 @@ First, install the Fabric Loader from [fabricmc.net](https://fabricmc.net/).
 Then head over to the [Modrinth page](https://modrinth.com/mod/sakura-blossoms) or the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sakura-blossoms) and download the JAR file and copy it to your "mods" folder.
 
 ## Authors
-Made with ❤ by Lua MacDougall ([foxgirl.dev](https://foxgirl.dev/))
+Made with ❤ by Lua ([foxgirl.dev](https://foxgirl.dev/))
 
 ## License
 This project is licensed under the [MIT license](LICENSE).
