@@ -5,9 +5,9 @@
   "version": "${version}",
 
   "depends": {
-    "java": ">=16",
-    "minecraft": ">=1.17.0",
-    "fabricloader": ">=0.11.0"
+    "java": ">=17",
+    "minecraft": ">=1.19.1",
+    "fabricloader": ">=0.14.8"
   },
 
   "name": "Sakura Blossoms",
