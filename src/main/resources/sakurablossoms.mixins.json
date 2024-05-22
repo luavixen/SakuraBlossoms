@@ -1,11 +1,13 @@
 {
-  "required": true,
+  "required": false,
+  "minVersion": "0.8",
   "compatibilityLevel": "JAVA_16",
   "package": "dev.foxgirl.sakurablossoms.mixins",
   "injectors": {
-    "defaultRequire": 1
+    "defaultRequire": 0
   },
   "client": [
+    "BlockLeakParticleMixin",
     "FallingSporeBlossomFactoryMixin",
     "SporeBlossomAirFactoryMixin"
   ]
